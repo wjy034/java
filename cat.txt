@@ -1,0 +1,31 @@
+class Dog{
+    public String name;
+    public int age;
+
+    public void  barks(){
+        System.out.println(name + "旺旺叫。"+"年龄" +age);
+    }
+    public void eat(){
+        System.out.println(name + "正在吃饭。");
+    }
+}
+class Cat extends Dog{
+
+    public void eat(){
+        System.out.println(name + "正在吃饭。");
+    }
+    public void CatchMouse(){
+        System.out.println(name + "正在抓老鼠！");
+    }
+
+} 
+public class Test {
+
+    public static void main(String[] args) {
+        Dog dog =new Dog();
+        dog.name ="旺财";
+        dog.age=02;
+        dog.barks();
+        dog.eat();
+    }
+}
