@@ -1,0 +1,12 @@
+//异或-找只出现一次的数
+    public  static  int func4(int[] array){
+        int ret =array[0];
+        for (int i = 1; i < array.length; i++) {
+            ret =ret ^array[i];
+        }
+        return ret;
+    }
+    public static void main28(String[] args) {
+        int[] array ={1,2,3,2,1};
+        System.out.println(func4(array));;
+    }
