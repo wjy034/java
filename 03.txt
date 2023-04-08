@@ -1,0 +1,11 @@
+  public static void main25(String[] args) {
+        /*int a1=1;
+        int a2=2;
+        int a3=3;*/
+        //通过数组，来组织这一些数据
+        int[] array ={1,2,3};;
+        float[] array2 ={1,0f,2.5f};
+        int ret =array[1];
+        System.out.println(ret);
+
+       
