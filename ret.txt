@@ -1,0 +1,15 @@
+   public static void main18(String[] args) {
+        int n = 1;
+        int ret2 = 0;
+        while (n <= 5) {
+            int i = 1;
+            int ret = 1;
+            while (i <= 5) {
+                ret *= i;
+                i++;
+            }
+            ret2 += ret;
+            n++;
+        }
+        System.out.println(ret2);
+    }
