@@ -1,0 +1,9 @@
+public static void main20(String[] args) {
+        Scanner scan=new Scanner(System.in);
+        System.out.println("输入你的姓名: ");
+        String name=scan.nextLine();
+        System.out.println("姓名: "+name);
+        System.out.println("输入你的年龄: ");
+        int age=scan.nextInt();
+        System.out.println("年龄: "+age);
+    }
