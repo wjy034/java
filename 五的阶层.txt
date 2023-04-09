@@ -1,0 +1,10 @@
+    public static void main17(String[] args) {
+        //5的阶层
+        int i = 1;
+        int ret = 1;
+        while (i <= 5) {
+            ret *= i;
+            i++;
+        }
+        System.out.println(ret);
+    }
