@@ -1,0 +1,10 @@
+ public static void main1(String[] args) {
+        int a = 10;//常用
+        System.out.println(a);
+        //Integer--当作int的plus版本，专业术语
+        System.out.println(Integer.MAX_VALUE);//可以输出int的最大值
+        System.out.println(Integer.MIN_VALUE);//输出int最小值
+        int c = 152585;
+        System.out.println(c);
+    }
+}
