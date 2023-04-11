@@ -1,0 +1,9 @@
+ public static void main2(String[] args) {
+        long a = 10;//long定义的长整型变量
+        System.out.println(a);
+        //long类型所表示的范围：远超过int，足够绝大部分的工程场景使用
+        System.out.println(Long.MAX_VALUE);
+        System.out.println(Long.MIN_VALUE);
+        long b = 10L;//区分int和long的类型，long类型变量的初始值后加L或者l
+        System.out.println(b);
+    }
