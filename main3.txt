@@ -1,0 +1,6 @@
+  public static void main3(String[] args) {
+        short ac = 10;//短整型2个字节
+        System.out.println(Short.MAX_VALUE);
+        System.out.println(Short.MIN_VALUE);
+        System.out.println(ac);
+    }
