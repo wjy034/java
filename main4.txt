@@ -1,0 +1,6 @@
+   public static void main4(String[] args) {
+        byte s = 10;//字节类型，1个字节
+        System.out.println(s);
+        System.out.println(Byte.MAX_VALUE);
+        System.out.println(Byte.MIN_VALUE);
+    }
