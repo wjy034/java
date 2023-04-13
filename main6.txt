@@ -1,0 +1,6 @@
+ public static void main6(String[] args) {
+        double a = 1.1;
+        double b = 1.1;
+        //System.out.println(a/b);//0.5
+        System.out.println(a * b);//1.210000000000002
+    }
