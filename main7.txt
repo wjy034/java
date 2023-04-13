@@ -1,0 +1,6 @@
+
+    public static void main7(String[] args) {
+        char ch = 97;//字符型，两个字节，16个比特位
+        System.out.println(ch);
+        System.out.println(Character.MAX_RADIX);
+        System.out.println(Character.MIN_VALUE);
