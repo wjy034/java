@@ -1,0 +1,4 @@
+  public static void main8(String[] args) {
+        boolean b = true;//boolean 布尔类型
+        System.out.println(b);
+    }
