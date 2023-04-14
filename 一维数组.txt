@@ -1,0 +1,11 @@
+class Solution {
+    public int[] runningSum(int[] nums) {
+        for(int i=1;i<nums.length;i++){
+            nums[i]+=nums[i-1];
+        }
+        return nums;
+    }
+}
+用一个for循环
+思路：每个数与后面的数相加，组成新的数组，用”length“数组长度来计算，第一个数为i，与第二个数相加就为[i-1];
+nums[i]+;就是数组相加等于i-1个长度，知道length为0；
