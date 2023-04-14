@@ -1,0 +1,18 @@
+class Solution {
+    public int numberOfSteps(int num) {
+        int s = 0;
+        while(num != 0){
+            if(num % 2 == 0){
+                num = num / 2;
+            }
+            else{
+                num = num -1;
+            }
+            s++;
+        }
+        return s;
+    }
+}
+while循环和for循环的区别
+控制条件语句的变量，在for循环结束后，就不可以被访问了，
+而while循环还可以访问，如果你继续想使用该变量，则可以使用while循环，否则推荐使用for循环。
