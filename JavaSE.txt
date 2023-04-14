@@ -1,0 +1,5 @@
+#### Java有三大版本：JavaSE、JavaME、JavaEE（以前也分别叫做J2SE、J2ME、J2EE）
+
+### **Java SE（Java Platform，Standard Edition，Java平台标准版）
+
+- 是基础，可以用来开发一些桌面应用、游戏
