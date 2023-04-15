@@ -1,0 +1,8 @@
+### IDE
+
+###### 常见的Java IDE有：NetBeans、Eclipse、MyEclipse、IntelliJ IDEA
+
+###### 目前企业中用得最多的Java IDE 是Eclipse、IntelliJ IDEA
+
+###### 在JavaSE中，用Eclipse
+
