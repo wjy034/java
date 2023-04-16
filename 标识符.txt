@@ -1,0 +1,18 @@
+### 标识符
+
+###### 标识符：变量名、方法名、类名等，命名规则如下：
+
+- 不限长度的Java字母、Java数字序列，但必须以Java字母开头（区分大小写）
+- 不能使用关键字
+- 不能使用字面量ture、false、null
+
+###### Java字母
+
+- Character.isJavaIdentifierStar 方法返回 ture的字符
+- 包括ASCII中的A~Z、a~z，美元符（$），下划线（_），中文、韩文、日文等字符
+
+###### Java字母或者Java数字
+
+- Character.isJavaIdentifierPart 方法返回ture 的字符
+- Java数字包括ASCII中的0~9
+
