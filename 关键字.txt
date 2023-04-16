@@ -1,0 +1,11 @@
+### 关键字（Keyword）
+
+###### 关键字也叫做保留字（reserved word）
+
+###### Java的关键字如下所示
+
+![image-20230416165226044](C:\Users\asus2110\AppData\Roaming\Typora\typora-user-images\image-20230416165226044.png)
+
+###### 虽然goto、const 未被使用，但也属于关键字
+
+###### *true、false、null不是关键字，是字面量
