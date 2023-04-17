@@ -1,0 +1,11 @@
+###  数据类型
+
+- ###### Java的数据类型主要分为2大类
+
+  - ###### 基本类型（Primitive Type）
+
+  ![image-20230417171000970](C:\Users\asus2110\AppData\Roaming\Typora\typora-user-images\image-20230417171000970.png)
+
+- ###### 引用类型（Reference Type）
+
+  - 引用类型的值是对对象的引用
