@@ -1,0 +1,13 @@
+### 类型转换（Type Conversion）
+
+- ###### 拓宽基本类型转换（Widening Primitive Conversion）
+
+  - 数据范围小的转为数据范围大的（19种），可以自动转换（隐式转换）
+
+![image-20230418134429481](C:\Users\asus2110\AppData\Roaming\Typora\typora-user-images\image-20230418134429481.png)
+
+- ###### 窄化基本类型转换（Narrowing Primitive Conversion）
+
+  - 数据范围大的转为数据范围小的（22种），可能会丢失精度和范围，需要强制转换
+
+    ![image-20230418134658567](C:\Users\asus2110\AppData\Roaming\Typora\typora-user-images\image-20230418134658567.png)
