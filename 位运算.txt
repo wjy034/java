@@ -1,0 +1,32 @@
+### 运算符（Operator）
+
+![image-20230418104652517](C:\Users\asus2110\AppData\Roaming\Typora\typora-user-images\image-20230418104652517.png)
+
+- ###### 上面一行的优先级比下面一行高
+
+- ###### 同一行的优先级一样
+
+- ###### 当多个优先级一样的运算符一起使用时
+
+  - 按照结合性进行运算
+    - 只有赋值运算符的结合性是从右至左
+    - 其他运算符的结合性都是从左至右
+
+### 字符串拼接
+
+- ###### 可以使用加号（+）进行字符串的拼接
+
+  ![image-20230418105237336](C:\Users\asus2110\AppData\Roaming\Typora\typora-user-images\image-20230418105237336.png)
+
+### 位运算
+
+- ###### >> 与 >>>
+
+  - 2(有符号右移)：最左用符号位补齐
+  - 3(无符号右移)：最左用0补齐
+
+- &、|、^也能用在boolean类型上
+
+  - 对比&&、||、&、|少了短路功能
+
+![image-20230418133942635](C:\Users\asus2110\AppData\Roaming\Typora\typora-user-images\image-20230418133942635.png)
