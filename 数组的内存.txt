@@ -1,0 +1,13 @@
+### 数组的内存
+
+- ###### Java的数组属于引用类型
+
+- ###### 数组元素存储在堆空间（Heap）
+
+- ###### Java的堆内存申请会自动进行初始化
+
+
+
+![image-20230419185240244](C:\Users\asus2110\AppData\Roaming\Typora\typora-user-images\image-20230419185240244.png)
+
+### 数组的遍历
