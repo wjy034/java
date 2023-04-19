@@ -1,0 +1,8 @@
+### 方法签名
+
+- 方法签名由2部分组成：方法名、参数类型
+- 下面方法的方法签名是sum（int、long、double）
+
+![image-20230419195022648](C:\Users\asus2110\AppData\Roaming\Typora\typora-user-images\image-20230419195022648.png)
+
+- 在同一个类中不能定义2个方法签名一样的方法
