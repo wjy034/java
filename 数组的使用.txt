@@ -1,0 +1,23 @@
+### 数组的使用
+
+数组在内存中是一段连续空间，空间的编号都是从0开始的，依次递增，该编号称为数组的下标，数组可以通过下标访问其任意位置的元素。
+
+for each 增强for循环 
+
+```java
+//  数组当中数据的类型定义的变量 ： 数组名
+for (int x : array1){
+    System.out.print(x+" ");
+}
+System.out.println();
+```
+
+*JAVA当中有 一个工具，可以专门用来操作数组，这个工具叫做Arrays.
+
+//把数组转变为字符串，然后返回
+
+```java
+String ret =Arrays.toString(array1); 
+```
+
+一个引用不能指向多个对象
