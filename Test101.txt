@@ -1,0 +1,10 @@
+public class Test101 {
+    protected String name;
+    protected int number;
+    void setDate(String m,int h){
+        name=m;number=h;
+    }
+    public void print(){
+        System.out.println(name+","+number);
+    }
+}
