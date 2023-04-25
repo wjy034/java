@@ -1,0 +1,11 @@
+### *主要部件基本功能
+
+###### 输入设备（Input devices）：从计算机外部输入信息。
+
+###### 存储器(Memory Unit)：存放数据、指令等。
+
+###### 运算器(Arithmetic and Logic Unit)：ALU执行算数、逻辑运算。
+
+###### 控制器(Control Unit )：CU分析指令，控制指令的执行，协调其它部件工作。
+
+###### 输出设备(Output devices)：将加工后的信息输出。
