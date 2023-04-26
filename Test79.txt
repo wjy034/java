@@ -1,0 +1,59 @@
+public class Test79 {
+    private  double width;
+    private  double height;
+    private  static  String color ="蓝色";
+    public Test79() {
+        this (0.0,0.0);
+    }
+    public Test79(double width) {
+        this (width,width);
+    }
+    public Test79(double width,double height){
+        this.width =width;
+        this.height =height;
+    }
+    public double getWidth (){
+        return width;
+    }
+    public void setWidth(double width){
+        this.width =width;
+    }
+    public  double getHeight() {
+        return height;
+    }
+    public void setHeight(double height) {
+        this.height =height;
+    }
+    public static String getColor (){
+        return color;
+    }
+    public static void setColor(String color){
+        Test79.color=color;
+    }
+    public  double getArea (){
+        return width*height;
+    }
+    public String toString (){
+        return  "宽:"+width+"\t\t 高:" +height +"\t\t 颜色:" +color+" \t\t 面积:"+getArea();
+    }
+
+    public static void main(String[] args) {
+        Test79 r;
+        System.out.println("创建一个默认初值的矩形:");
+        r =new Test79();
+        System.out.println(" \t"+r);
+        System.out.println(" 修改具有默认初值矩形的宽为10，高为20:");
+        r.setWidth (10);
+        r.setHeight (20);
+        System.out.println(" \t"+r);
+        System.out.println(" 修改所有矩形对象的颜色为红色");
+        Test79.setColor ("红色");
+        System.out.println(" \t"+r);
+        System.out.println(" 创建一个宽为10，高为30的矩形");
+        r =new Test79(10,30);
+        System.out.println(" \t"+r);
+        System.out.println(" 创建一个边长为1的正方形:");
+        r =new Test79(1);
+        System.out.println(" \t" +r);
+    }
+}
