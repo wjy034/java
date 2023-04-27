@@ -1,0 +1,11 @@
+###  RAM
+
+##### DRAM：Dynamic Randdom Access Memory动态随机存储器
+
+###### 特点：速度慢、价格便宜，生活中的内存条大部分都是DRAM
+
+##### SRAM：Static Random Access Memory静态随机存储器
+
+###### 特点：会记录一些常用的数据、速度快。价格比较高，通常当作cache（高速缓存）是为了解决内存和CPU速度不匹配的问题
+
+###### 速度关系：CPU>cache>内存>外存
