@@ -1,0 +1,47 @@
+class A{
+        float a;
+        static float b;
+
+    public float getA() {
+        return a;
+        //代码1
+    }
+
+    public static float getB() {
+        return b;
+        //代码2
+    }
+
+    public void setA(float a) {
+        this.a = a;
+        //代码3
+    }
+
+    public static void setB(float b) {
+        A.b = b;
+        //代码4
+    }
+    void  inputA(){
+        System.out.println(a);
+    }
+    static  void  inputB(){
+        System.out.println(b);
+    }
+}
+
+public class Example {
+    public static void main(String[] args) {
+        A.b=100;//代码5
+        A.inputB();//代码6
+        A cat=new A();
+        A dog=new A();
+        cat.setA(200);//代码7
+        cat.setB(400);//代码8
+        dog.setA(150);//代码9
+        dog.setB(300);//代码10
+        cat.inputA();//代码11
+        cat.inputB();//代码12
+        dog.inputA();//代码13
+        dog.inputB();//代码14
+    }
+}
